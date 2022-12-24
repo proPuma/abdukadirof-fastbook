@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link 
+        rel="stylesheet" 
+        href="./res/css/bootstrap.min.css"
+        crossorigin="anonymous">
+        
+
+    <!-- main css-->
+    <link rel="stylesheet" href="main.css">
+    
+    <link rel="stylesheet" href="./res/ico/all.min.css">
+    <link rel="stylesheet" href="./res/ico/fontawesome.min.css">
+    <link rel="stylesheet" href="./res/ico/regular.min.css">
+    <link rel="stylesheet" href="./res/ico/svg-with-js.css">
+    
+
+    <title>Fastbox</title>
+</head>
+<body class="bg-grey">
+    <!--========= app bar ===========-->
+    <div class="bg-white d-flex alighn-item-center fixed-top shadow" style=" min-height: 56px; z-index: 5; ">
+        <div class="container-fluid">
+            <div class="row alighn-item-center">
+                <!--search-->
+                <div class="col d-flex alighn-item-center mt-auto">
+                    <!--logo-->
+                    <i class="fab fa-facebook text-primary mt-1"
+                    style="font-size: 3rem;"></i>
+                    <!--search bar-->
+                    <div class="input-group ms-2">
+                        <!--mobile-->
+                        <span 
+                        class="input-group-prepend d-lg-none " data-bs-toggle="dropdown" 
+                        aria-expanded="false" 
+                        data-bs-auto-close="outside" 
+                        id="searchMenu" 
+                        type="button">
+                            <div class="input-group-text bg-grey border-0 rounded-circle mt-2" style="min-height: 40px;">
+                                <i class="fas fa-search text-muted"></i>
+                                
+                            </div>
+                        </span>
+                        <!--desktop-->
+                        <span class="input-group-prepend d-none d-lg-block " data-bs-toggle="dropdown" aria-expanded="false" 
+                        data-bs-auto-close="outside" id="searchMenu" type="button">
+                            <div class="input-group-text bg-grey border-0 rounded-pill mt-2" style="min-height: 40px; min-width: 230px;">
+                                <i class="fas fa-search me-3 text-muted"></i>
+                                <p class="m-0 fs-7 text-muted">Search Fastbook</p>
+                            </div>
+                        </span>
+                        <!--search dd-->
+                            <ul class="dropdown-menu border-0 shadow p-3 overflow-auto" id="searchMenu" aria-labelledby="searchMenu" style="width: 20em; max-height: 600px;">
+                              <!--search input-->
+                              <li>
+                                <input type="text" class="rounded-pill border-0 bg-grey dropdown-item" placeholder="Search Fastbook" autofocus>
+                              </li>
+                              <!--search result-->
+                              <!--result1-->
+                              <li class="my-4">
+                                <div class="alert dropdown-item p-1 m-0 d-flex alighn-item-center justify-content-between fade show" role="alert">
+                                    <div class="d-flex alighn-item-center">
+                                        <img src="https://source.unsplash.com/random/1" alt="avatar" class="rounded-circle me-2" style="width: 35px; height: 35px; object-fit: cover;">
+                                        <p class="m-0 mt-1 text-bolder">
+                                            Lorem, ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                  </div>
+                              </li>
+
+                              <!--result2-->
+                              <li class="my-4">
+                                <div class="alert dropdown-item p-1 m-0 d-flex alighn-item-center justify-content-between fade show" role="alert">
+                                    <div class="d-flex alighn-item-center">
+                                        <img src="https://source.unsplash.com/random/2" alt="avatar" class="rounded-circle me-2" style="width: 35px; height: 35px; object-fit: cover;">
+                                        <p class="m-0 mt-1 text-bolder">
+                                            Lorem, ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                  </div>
+                              </li>
+
+                              <!--result3-->
+                              <li class="my-4">
+                                <div class="alert dropdown-item p-1 m-0 d-flex alighn-item-center justify-content-between fade show" role="alert">
+                                    <div class="d-flex alighn-item-center">
+                                        <img src="https://source.unsplash.com/random/3" alt="avatar" class="rounded-circle me-2" style="width: 35px; height: 35px; object-fit: cover;">
+                                        <p class="m-0 mt-1 text-bolder">
+                                            Lorem, ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                  </div>
+                              </li>
+                            </ul>                         
+                    </div>
+                </div>
+                <!--nav-->
+                <div class="col"></div>
+                <!--menus-->
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- javascript bootstrap -->
+    <script 
+        src="./res/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+        
+
+    <!-- main js -->
+    <script src="./main.js"></script>
+    <script src="./res/ico/all.min.js"></script>
+</body>
+</html>
